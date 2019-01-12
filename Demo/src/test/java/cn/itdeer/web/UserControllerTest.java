@@ -39,11 +39,41 @@ public class UserControllerTest {
 
     @Test
     public void whenQuerySuccess() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/user")
+        String result = mockMvc.perform(MockMvcRequestBuilders.get("/user")
 //                .param("aa","itdeer")
+                .param("username","itdeer")
+                .param("age","10")
+                .param("ageTo","16")
+                .param("xxx","yyy")
+//                .param("size","15")
+//                .param("sort","age,desc")
+//                .param("page","3")
                 .contentType(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.jsonPath("$.length()").value(3));
+                .andExpect(MockMvcResultMatchers.jsonPath("$.length()").value(3)).andReturn().getResponse().getContentAsString();
+
+        System.out.println(result);
+
+    }
+
+
+    @Test
+    public void whenGenInfoSuccess() throws Exception{
+
+        String result = mockMvc.perform(MockMvcRequestBuilders.get("/user/1")
+                .contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.jsonPath("$.username").value("tom")).andReturn().getResponse().getContentAsString();
+        System.out.println(result);
+
+    }
+
+    @Test
+    public void whenGenInfoFail() throws Exception{
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/user/a")
+                .contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andExpect(MockMvcResultMatchers.status().is4xxClientError());
     }
 
 }

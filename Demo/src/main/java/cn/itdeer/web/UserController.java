@@ -2,10 +2,13 @@ package cn.itdeer.web;
 
 import cn.itdeer.dto.User;
 import cn.itdeer.dto.UserQueryCondition;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.fasterxml.jackson.annotation.JsonView;
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,10 +22,21 @@ import java.util.List;
  */
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
-    @RequestMapping(value = "/user",method = RequestMethod.GET)
-    public List<User> query(UserQueryCondition userQueryCondition){
+    @GetMapping
+    @JsonView(User.UserSimpleView.class)
+    public List<User> query(UserQueryCondition userQueryCondition, @PageableDefault(page = 12,size = 20,sort = "username:desc") Pageable pageable){
+
+
+        System.out.println(ReflectionToStringBuilder.toString(userQueryCondition, ToStringStyle.MULTI_LINE_STYLE));
+
+        System.out.println(pageable.getPageNumber());
+        System.out.println(pageable.getPageSize());
+        System.out.println(pageable.getSort());
+        System.out.println(pageable.getOffset());
+
         System.out.println(userQueryCondition.toString());
         List<User> list = new ArrayList<>();
         list.add(new User());
@@ -30,6 +44,15 @@ public class UserController {
         list.add(new User());
 
         return list;
+    }
+
+
+    @GetMapping("/{id:\\d+}")
+    @JsonView(User.UserDetailView.class)
+    public User getInfo(@PathVariable String id){
+        User user = new User();
+        user.setUsername("tom");
+        return user;
     }
 
 }
