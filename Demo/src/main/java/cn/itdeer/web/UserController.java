@@ -72,6 +72,9 @@ public class UserController {
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
     public User getInfo(@PathVariable String id){
+
+        System.out.println("方法体处理.....");
+
         User user = new User();
         user.setUsername("tom");
         return user;
