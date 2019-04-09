@@ -33,7 +33,7 @@ public class Time5Filter implements Filter{
 
         chain.doFilter(request,response);
 
-        System.out.println("耗时5：" + (new Date().getTime() - start));
+        System.out.println("Filter5耗时：" + (new Date().getTime() - start));
     }
 
     @Override

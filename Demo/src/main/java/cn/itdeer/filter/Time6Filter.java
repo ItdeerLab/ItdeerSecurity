@@ -33,7 +33,7 @@ public class Time6Filter implements Filter{
 
         chain.doFilter(request,response);
 
-        System.out.println("耗时6：" + (new Date().getTime() - start));
+        System.out.println("Filter6耗时：" + (new Date().getTime() - start));
     }
 
     @Override

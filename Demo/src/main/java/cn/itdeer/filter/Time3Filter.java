@@ -27,7 +27,7 @@ public class Time3Filter implements Filter {
 
         chain.doFilter(request,response);
 
-        System.out.println("耗时3：" + (new Date().getTime() - start));
+        System.out.println("Filter3耗时：" + (new Date().getTime() - start));
     }
 
     @Override
