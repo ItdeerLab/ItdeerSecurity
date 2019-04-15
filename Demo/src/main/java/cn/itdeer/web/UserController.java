@@ -3,6 +3,8 @@ package cn.itdeer.web;
 import cn.itdeer.dto.User;
 import cn.itdeer.dto.UserQueryCondition;
 import com.fasterxml.jackson.annotation.JsonView;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
@@ -49,6 +51,7 @@ public class UserController {
 
     @GetMapping
     @JsonView(User.UserSimpleView.class)
+    @ApiOperation(value = "用户查询")
     public List<User> query(UserQueryCondition userQueryCondition, @PageableDefault(page = 12,size = 20,sort = "username:desc") Pageable pageable){
 
 
@@ -71,7 +74,7 @@ public class UserController {
 
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
-    public User getInfo(@PathVariable String id){
+    public User getInfo(@ApiParam(value = "用户ID") @PathVariable String id){
         System.out.println("ID:" + id);
 
 //        throw new RuntimeException("aaaaa");
@@ -102,5 +105,9 @@ public class UserController {
     public void delete(@PathVariable int id){
         System.out.println(id);
     }
+
+
+
+
 
 }
