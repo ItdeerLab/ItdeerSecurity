@@ -14,7 +14,7 @@ import java.util.Date;
  * CreatorName : itdeer.cn
  * CreateTime : 2019/4/10/17:36
  */
-@Aspect
+//@Aspect
 @Component
 public class Aspect3 {
     @Around("execution(* cn.itdeer.web.*.*(..))")

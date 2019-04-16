@@ -24,8 +24,14 @@ public class MockServer {
 
         mock("/order/1","data/01.json");
 
+        mock("/v2/movie/in_theaters_all","data/inTheaters_all.json");
+        mock("/v2/movie/in_theaters_list","data/inTheaters_list.json");
 
+        mock("/v2/movie/coming_soon_all","data/comingSoon_all.json");
+        mock("/v2/movie/coming_soon_list","data/comingSoon_list.json");
 
+        mock("/v2/movie/top250_all","data/top250_all.json");
+        mock("/v2/movie/top250_list","data/top250_list.json");
 
     }
 

@@ -18,7 +18,7 @@ import java.util.List;
  * CreateTime : 2019/4/7/18:11
  */
 
-@Configuration
+//@Configuration
 public class FilterConfig {
 
     @Bean

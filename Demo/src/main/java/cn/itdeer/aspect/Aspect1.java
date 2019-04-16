@@ -15,7 +15,7 @@ import java.util.Date;
  * CreateTime : 2019/4/10/17:17
  */
 
-@Aspect
+//@Aspect
 @Component
 public class Aspect1 {
 

@@ -29,8 +29,8 @@ public class InterceptorConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(timeInterceptor1).excludePathPatterns("/*");
-        registry.addInterceptor(timeInterceptor2).excludePathPatterns("/*");
-        registry.addInterceptor(timeInterceptor3).excludePathPatterns("/*");
+//        registry.addInterceptor(timeInterceptor1).excludePathPatterns("/*");
+//        registry.addInterceptor(timeInterceptor2).excludePathPatterns("/*");
+//        registry.addInterceptor(timeInterceptor3).excludePathPatterns("/*");
     }
 }

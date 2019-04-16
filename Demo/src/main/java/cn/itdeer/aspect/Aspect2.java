@@ -16,7 +16,7 @@ import java.util.Date;
  */
 
 
-@Aspect
+//@Aspect
 @Component
 public class Aspect2 {
 

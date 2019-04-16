@@ -16,7 +16,7 @@ import java.util.Date;
  * CreateTime : 2019/4/7/18:04
  */
 
-@Component
+//@Component
 @WebFilter(urlPatterns = "/*", filterName = "time5Filter")
 @Order(5)
 public class Time5Filter implements Filter{

@@ -1,0 +1,214 @@
+{
+  "count": 3,
+  "start": 0,
+  "total": 32,
+  "subjects": [
+    {
+      "rating": {
+        "max": 10,
+        "average": 6.3,
+        "stars": "35",
+        "min": 0
+      },
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "title": "反贪风暴4",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1027577/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1421047436.79.webp",
+            "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1421047436.79.webp",
+            "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1421047436.79.webp"
+          },
+          "name": "古天乐",
+          "id": "1027577"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1274666/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p40550.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p40550.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p40550.webp"
+          },
+          "name": "郑嘉颖",
+          "id": "1274666"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1037562/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1517921928.93.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1517921928.93.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1517921928.93.webp"
+          },
+          "name": "林峯",
+          "id": "1037562"
+        }
+      ],
+      "collect_count": 36336,
+      "original_title": "P風暴",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1326068/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1357529568.73.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1357529568.73.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1357529568.73.webp"
+          },
+          "name": "林德禄 ",
+          "id": "1326068"
+        }
+      ],
+      "year": "2019",
+      "images": {
+        "small": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551353482.webp",
+        "large": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551353482.webp",
+        "medium": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551353482.webp"
+      },
+      "alt": "https://movie.douban.com/subject/27202819/",
+      "id": "27202819"
+    },
+    {
+      "rating": {
+        "max": 10,
+        "average": 8.3,
+        "stars": "45",
+        "min": 0
+      },
+      "genres": [
+        "喜剧",
+        "犯罪",
+        "悬疑"
+      ],
+      "title": "调音师",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1327903/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1549016715.18.webp",
+            "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1549016715.18.webp",
+            "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1549016715.18.webp"
+          },
+          "name": "阿尤斯曼·库拉纳",
+          "id": "1327903"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1040796/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1475469381.11.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1475469381.11.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1475469381.11.webp"
+          },
+          "name": "塔布",
+          "id": "1040796"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1329473/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1554656744.53.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1554656744.53.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1554656744.53.webp"
+          },
+          "name": "拉迪卡·艾普特",
+          "id": "1329473"
+        }
+      ],
+      "collect_count": 213432,
+      "original_title": "Andhadhun",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1306786/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1545725463.81.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1545725463.81.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1545725463.81.webp"
+          },
+          "name": "斯里兰姆·拉格万",
+          "id": "1306786"
+        }
+      ],
+      "year": "2018",
+      "images": {
+        "small": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551995207.webp",
+        "large": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551995207.webp",
+        "medium": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551995207.webp"
+      },
+      "alt": "https://movie.douban.com/subject/30334073/",
+      "id": "30334073"
+    },
+    {
+      "rating": {
+        "max": 10,
+        "average": 6.6,
+        "stars": "35",
+        "min": 0
+      },
+      "genres": [
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "title": "雷霆沙赞！",
+      "casts": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1027147/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1392178173.13.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1392178173.13.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1392178173.13.webp"
+          },
+          "name": "扎克瑞·莱维",
+          "id": "1027147"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1274374/",
+          "avatars": {
+            "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1457350889.15.webp",
+            "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1457350889.15.webp",
+            "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1457350889.15.webp"
+          },
+          "name": "马克·斯特朗",
+          "id": "1274374"
+        },
+        {
+          "alt": "https://movie.douban.com/celebrity/1381710/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1541231928.29.webp",
+            "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1541231928.29.webp",
+            "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1541231928.29.webp"
+          },
+          "name": "亚瑟·安其",
+          "id": "1381710"
+        }
+      ],
+      "collect_count": 100886,
+      "original_title": "Shazam!",
+      "subtype": "movie",
+      "directors": [
+        {
+          "alt": "https://movie.douban.com/celebrity/1354769/",
+          "avatars": {
+            "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455853108.97.webp",
+            "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455853108.97.webp",
+            "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455853108.97.webp"
+          },
+          "name": "大卫·F·桑德伯格",
+          "id": "1354769"
+        }
+      ],
+      "year": "2019",
+      "images": {
+        "small": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551249211.webp",
+        "large": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551249211.webp",
+        "medium": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551249211.webp"
+      },
+      "alt": "https://movie.douban.com/subject/2244426/",
+      "id": "2244426"
+    }
+  ],
+  "title": "正在上映的电影-北京"
+}
